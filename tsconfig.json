@@ -2,23 +2,26 @@
   "compilerOptions": {
     "target": "ESNext",
     "noImplicitAny": false,
-    "rootDir": ".",
+    //"rootDir": "./code/ver1",
     "outDir": "./res",
-    "module": "ES6", // import & export statements
+    "module": "ESNext", // import & export statements
     "moduleResolution": "node",
     "removeComments": true,
     "allowJs": true,
   },
-  //"include": [
-  //"./code/ver1/day2_1.ts",
-  //"./code/**/*.ts"
-  //],
-  "exclude": [
-    "code/ver2/*.ts",
-    "code2/*.ts",
-    "code/ver1/file2.ts",
-    "code/file11.ts"
-  ]
+  "include": [
+    //"./code/ver1/file1.ts",
+    //"./code/ver1/**/*.ts",
+    //"./code/**/*.ts"
+    "./day4/*.ts"
+  ],
+  //"exclude": [
+    //"code/ver2/*.ts",
+    //"code2/*.ts",
+    //"code/ver1/day2_1.ts",
+    //"code/ver1/ver1_1/*.ts"
+    //"code/file11.ts"
+  //]
   /* Visit https://aka.ms/tsconfig to read more about this file */
   /* Projects */
   // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */

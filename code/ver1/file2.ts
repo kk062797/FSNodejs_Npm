@@ -4,3 +4,5 @@ function calcAge(yearofBirth:number){
 
 const age1 = calcAge(1997);
 console.log(age1);
+
+export {calcAge};
