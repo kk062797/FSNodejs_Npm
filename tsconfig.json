@@ -8,12 +8,14 @@
     "moduleResolution": "node",
     "removeComments": true,
     "allowJs": true,
+    "strict": true,
+    "noEmitOnError": true
   },
   "include": [
     //"./code/ver1/file1.ts",
     //"./code/ver1/**/*.ts",
     //"./code/**/*.ts"
-    "./day4/*.ts"
+    "./day5/day5_1.ts"
   ],
   //"exclude": [
     //"code/ver2/*.ts",
