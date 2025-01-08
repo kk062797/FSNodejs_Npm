@@ -9,20 +9,24 @@
     "removeComments": true,
     "allowJs": true,
     "strict": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    //"sourceMap": true,
+    //"inlineSourceMap": true,
+    //"inlineSources": true,
+    "declaration": true,
   },
   "include": [
     //"./code/ver1/file1.ts",
     //"./code/ver1/**/*.ts",
     //"./code/**/*.ts"
-    "./day6/day6_2.ts"
+    "./day7/day7.ts"
   ],
   //"exclude": [
-    //"code/ver2/*.ts",
-    //"code2/*.ts",
-    //"code/ver1/day2_1.ts",
-    //"code/ver1/ver1_1/*.ts"
-    //"code/file11.ts"
+  //"code/ver2/*.ts",
+  //"code2/*.ts",
+  //"code/ver1/day2_1.ts",
+  //"code/ver1/ver1_1/*.ts"
+  //"code/file11.ts"
   //]
   /* Visit https://aka.ms/tsconfig to read more about this file */
   /* Projects */
