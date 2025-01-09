@@ -19,7 +19,7 @@
     //"./code/ver1/file1.ts",
     //"./code/ver1/**/*.ts",
     //"./code/**/*.ts"
-    "./day7/day7.ts"
+    "./day8/*.ts"
   ],
   //"exclude": [
   //"code/ver2/*.ts",

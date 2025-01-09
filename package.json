@@ -1,0 +1,11 @@
+{
+  "name": "fstypescript",
+  "version": "1.0.0",
+  "description": "Learning Ground for TypeScript",
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "test":"node ./day8/day8_2.js"
+  }
+}
