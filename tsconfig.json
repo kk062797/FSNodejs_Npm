@@ -4,7 +4,7 @@
     "noImplicitAny": false,
     //"rootDir": "./code/ver1",
     "outDir": "./res",
-    "module": "ESNext", // import & export statements
+    "module": "CommonJS", // import & export statements
     "moduleResolution": "node",
     "removeComments": true,
     "allowJs": true,
@@ -14,12 +14,13 @@
     //"inlineSourceMap": true,
     //"inlineSources": true,
     "declaration": true,
+  
   },
   "include": [
     //"./code/ver1/file1.ts",
     //"./code/ver1/**/*.ts",
     //"./code/**/*.ts"
-    "./day8/*.ts"
+    "./day9/*.ts"
   ],
   //"exclude": [
   //"code/ver2/*.ts",
